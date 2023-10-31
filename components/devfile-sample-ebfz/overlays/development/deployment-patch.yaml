@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ebfz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0064-tenant/ci1t-43256-0064-app/devfile-sample-ebfz@sha256:3fd2e56cd30cc8a0fd953de5ebc79fb8dcd9e30ec3cd41060173624e4dbcea8f
+        name: my-nodejs
+        resources: {}
+status: {}
